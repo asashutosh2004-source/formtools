@@ -35,6 +35,14 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://formtools-3sjv.vercel.app"),
 
   openGraph: {
+    images: [
+  {
+    url: "/og-image.png",
+    width: 1200,
+    height: 630,
+    alt: "FormTools Logo",
+  },
+],
     title: "FormTools - Free PDF & Image Tools",
     description:
       "Merge, Split, Compress PDFs and Resize Images online for free.",
@@ -44,6 +52,7 @@ export const metadata: Metadata = {
   },
 
   twitter: {
+    images: ["/og-image.png"],
     card: "summary_large_image",
     title: "FormTools - Free PDF & Image Tools",
     description:
