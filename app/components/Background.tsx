@@ -1,5 +1,5 @@
 "use client";
-import DiamondGrid from "./DiamondGrid";
+
 import { useEffect, useState } from "react";
 import Aurora from "./Aurora";
 import NeonBeam from "./NeonBeam";
